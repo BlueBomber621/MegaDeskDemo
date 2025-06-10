@@ -18,6 +18,22 @@ namespace MegaDeskDemo
             Hide();
         }
 
+        private void viewQuoteButton_Click(object sender, EventArgs e)
+        {
+            ViewQuotes viewQuotes = new();
+            viewQuotes.Tag = this;
+            viewQuotes.Show();
+            Hide();
+        }
+
+        private void searchQuoteButton_Click(object sender, EventArgs e)
+        {
+            SearchQuotes searchQuotes = new();
+            searchQuotes.Tag = this;
+            searchQuotes.Show();
+            Hide();
+        }
+
         private void exitButton_Click(object sender, EventArgs e)
         {
             this.Close();

@@ -55,6 +55,7 @@
             viewQuoteButton.TabIndex = 1;
             viewQuoteButton.Text = "View Quotes";
             viewQuoteButton.UseVisualStyleBackColor = true;
+            viewQuoteButton.Click += viewQuoteButton_Click;
             // 
             // searchQuoteButton
             // 
@@ -64,6 +65,7 @@
             searchQuoteButton.TabIndex = 2;
             searchQuoteButton.Text = "Search Quotes";
             searchQuoteButton.UseVisualStyleBackColor = true;
+            searchQuoteButton.Click += searchQuoteButton_Click;
             // 
             // exitButton
             // 
